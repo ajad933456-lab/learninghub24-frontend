@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   title: "LearningHub24 – Upgrade Your Skills. Build Your Dream Career.",
   description:
     "Join 50,000+ students learning from top educators across India. Explore courses in School subjects, IT, Competitive Exams, and Spoken English.",
+  icons: {
+    icon: "/logo.jpeg",
+  },
 };
 
 export default function RootLayout({
