@@ -57,9 +57,9 @@ const socialLinks = [
 ];
 
 export const legalLinks = [
-    { text: "Cookie Policy", href: "/cookie-policy" },
-    { text: "Copyright Policy", href: "/copyright-policy" },
-    { text: "Refund and Cancellation", href: "/refund-policy" },
+    { text: "Cookie Policy", href: "/cookiePolicy" },
+    { text: "Copyright Policy", href: "/copyrightPolicy" },
+    { text: "Refund and Cancellation", href: "/refundAndCancellation" },
     { text: "Disclaimer", href: "/disclaimer" },
     { text: "privacy Policy", href: "/privacyPolicy" },
     { text: "Terms & Conditions", href: "/termsAndConditions" },
