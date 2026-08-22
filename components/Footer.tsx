@@ -12,6 +12,7 @@ import {
 } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
+import { legalLinks } from "./Footer2";
 
 const footerLinks = {
     "Quick Links": [
@@ -60,14 +61,6 @@ const socialLinks = [
     { icon: IconBrandLinkedin, href: "https://www.linkedin.com/in/learning-hub-6082543b8", color: "hover:bg-sky-500/20 hover:text-sky-400 hover:border-sky-500/30" },
 ];
 
-export const legalLinks = [
-    { text: "Cookie Policy", href: "/cookie-policy" },
-    { text: "Copyright Policy", href: "/copyright-policy" },
-    { text: "Refund and Cancellation", href: "/refund-policy" },
-    { text: "Disclaimer", href: "/disclaimer" },
-    { text: "privacy Policy", href: "/privacyPolicy" },
-    { text: "Terms & Conditions", href: "/termsAndConditions" },
-];
 
 export default function Footer() {
     return (
