@@ -87,7 +87,7 @@ export default function trusHero() {
 
                     {/* Right image column — fills edge-to-edge with stats card overlapping bottom */}
                     <div className="relative flex-1 items-center lg:max-w-[48%]">
-                        <div className="h-[340px] w-full overflow-visible lg:h-full lg:rounded-none">
+                        <div className="h-[420px] w-full overflow-visible lg:h-full lg:rounded-none">
                             <div className="pointer-events-none absolute inset-0 flex items-center justify-center z-0">
                                 <div className="h-[420px]  w-[420px] rounded-full bg-[radial-gradient(circle,rgba(34,197,94,0.45)_0%,rgba(16,185,129,0.3)_35%,rgba(59,130,246,0.15)_60%,transparent_80%)] blur-3xl" />
                             </div>
@@ -100,7 +100,7 @@ export default function trusHero() {
                         </div>
 
                         {/* Floating stats card — overlaps bottom of image */}
-                        <div className="absolute z-30 -bottom-[2.5rem] w-full px-4 lg:bottom-[2rem] lg:px-14">
+                        <div className="absolute z-30 -bottom-0 w-full px-4 lg:bottom-[2rem] lg:px-14">
                             <div className="flex items-stretch rounded-2xl bg-white shadow-xl border border-gray-100 overflow-hidden lg:ml-">
                                 {stats.map((s, i) => (
                                     <div
