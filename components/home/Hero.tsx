@@ -13,7 +13,7 @@ const stats = [
 export default function trusHero() {
     return (
         <>
-            <section className="relative overflow-hidden overflow-x-clip bg-white pt-4">
+            <section className="relative overflow-hidden overflow-x-clip bg-white py-4">
                 <style>{`
                     @keyframes float {
                         0%, 100% { transform: translateY(0px) rotate(12deg); }
