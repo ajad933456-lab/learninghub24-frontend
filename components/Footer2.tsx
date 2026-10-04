@@ -203,7 +203,7 @@ export default function Footer2() {
                                 <IconMapPin size={18} className="text-orange-400 shrink-0 mt-1" />
                                 <div>
                                     <p className="font-semibold text-white">Address</p>
-                                    <p>Gandhi Nagar<br />Delhi 110031</p>
+                                    <p>Gndhi Nagar<br />Delhi 110031</p>
                                 </div>
                             </li>
                         </ul>
